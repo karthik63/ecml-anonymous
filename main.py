@@ -40,8 +40,6 @@ from models.model import ComplexModel
 from models.dismult_model import TranseModel
 
 
-experiment = Experiment('dS7pA92ZgRC2kQZglwwiWB5tC',project_name="kgzsl", workspace="karthik63")
-
 strategy = tf.distribute.MirroredStrategy(devices=['/gpu:0', '/gpu:1'])
 
 
@@ -51,8 +49,6 @@ with open('parser.py') as f:
     experiment.log_text(a)
     experiment.log_text('cool')
 
-
-# experiment = Experiment('dS7pA92ZgRC2kQZglwwiWB5tD',project_name="kgzsl", workspace="karthik63")
 # experiment.set_name('cool')
 
 experiment.log_asset('parser.py')
