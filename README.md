@@ -1,4 +1,4 @@
-# ecml-anonymous
+# FolK
 
 FB15k-237-OWE - https://dataverse.harvard.edu/privateurl.xhtml?token=5f9be9aa-00d2-47b6-b7c0-82402c2a20cc
 
